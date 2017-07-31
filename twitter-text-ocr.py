@@ -51,7 +51,7 @@ def image_to_string(image):
 		del_file(input_file_name)
 		del_file(output_file_name)
 
-filename = "test.png"
+filename = raw_input("Image of text to recognize: ")
 image = Image.open(filename)
 print image_to_string(image)
 
