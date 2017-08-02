@@ -1,4 +1,4 @@
-# twitter-text-ocr
+# meme-text-ocr
 Applies Tesseract Optical Character Recognition on an image of text taken from a meme.
 
 ### Motivation:
