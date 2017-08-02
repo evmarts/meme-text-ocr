@@ -58,9 +58,3 @@ def main():
 	print "Text: " + str(text)
 
 main()
-
-
-
-
-
-
