@@ -1,5 +1,4 @@
 from PIL import Image
-
 import os
 import sys
 import subprocess
@@ -51,9 +50,14 @@ def image_to_string(image):
 		del_file(input_file_name)
 		del_file(output_file_name)
 
-filename = raw_input("Image of text to recognize: ")
-image = Image.open(filename)
-print image_to_string(image)
+def main():
+	filename = raw_input("Image of text to recognize: ")
+	image = Image.open(filename)
+	text = image_to_string(image)
+	text = text.replace('\n',' ')
+	print "Text: " + str(text)
+
+main()
 
 
 
