@@ -55,6 +55,6 @@ def main():
 	image = Image.open(filename)
 	text = image_to_string(image)
 	text = text.replace('\n',' ')
-	print "Text: " + str(text)
+	print "Text: '" + str(text) + "'"
 
 main()
