@@ -50,11 +50,17 @@ def image_to_string(image):
 		del_file(input_file_name)
 		del_file(output_file_name)
 
+def spell_check(text):
+	text = text.replace(" u ", " you ").replace(' ur ', ' your ')
+	text = text.replace(text[0], text[0].upper(), 1)
+	return text
+
 def main():
 	filename = raw_input("Image of text to recognize: ")
 	image = Image.open(filename)
 	text = image_to_string(image)
-	text = text.replace('\n',' ')
+	text = text.replace('\n',' ').lower()
+	text = spell_check(text)
 	print "Text: '" + str(text) + "'"
 
 main()
