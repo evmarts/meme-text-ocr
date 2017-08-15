@@ -18,7 +18,7 @@ $ python meme-text-ocr.py
 Image of text to recognize: in/text.jpg
 ~~~
 
-<img src="./figures/fig2.jpg" width="256px" alt=""> text.jpg
+<img src="./figures/fig2.jpg" width="512px" alt=""> text.jpg
 
 Outputs the following
 
