@@ -3,23 +3,25 @@ Applies Tesseract Optical Character Recognition on an image of text taken from a
 
 ### Motivation:
 
-In a [previous project](https://github.com/evmarts/twitter-screencap-cropper), we partitioned a meme into a text component and an image component: 
+In a [previous project](https://github.com/evmarts/twitter-screencap-cropper), memes were partitioned into a text component and an image component: 
 
-<img src="./docs/sample_meme_contours.jpg" width="256px" alt="">
+<img src="./figures/fig1.jpg" width="256px" alt="">
 
-We may want to convert the text component into a string so that we can reuse, modify or analyze it.
+We may want to convert the text component into a string so that we can reuse, modify or analyze it. The meme-text-ocr.py script recognizes the text in an image of text:
 
-### twitter-text-ocr.py
+### meme-text-ocr.py
 
 Prompts user for an image of text:
 
 ~~~
-$ python twitter-text-ocr.py
-Image of text to recognize: sample_text.jpg
+$ python meme-text-ocr.py
+Image of text to recognize: in/text.jpg
 ~~~
 
-Outputs a string:
+<img src="./figures/fig2.jpg" width="256px" alt=""> text.jpg
+
+Outputs the following
 
 ~~~
-Text: when you call shotgun but end up in the back
+Text recognized as: 'When you call shotgun but end up in the back'
 ~~~

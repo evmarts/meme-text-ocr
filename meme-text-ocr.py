@@ -56,11 +56,11 @@ def spell_check(text):
 	return text
 
 def main():
-	filename = raw_input("Image of text to recognize: ")
+	filename = "in/" + raw_input("Image of text to recognize: in/")
 	image = Image.open(filename)
 	text = image_to_string(image)
 	text = text.replace('\n',' ').lower()
 	text = spell_check(text)
-	print "Text: '" + str(text) + "'"
+	print "Text recognized as: '" + str(text) + "'"
 
 main()
