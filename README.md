@@ -3,7 +3,7 @@ Applies Tesseract Optical Character Recognition on an image of text taken from a
 
 ### Motivation:
 
-In a [previous project](https://github.com/evmarts/twitter-screencap-cropper), memes were partitioned into a text component and an image component: 
+In a [previous project](https://github.com/evmarts/meme-cropper), memes were partitioned into a text component and an image component: 
 
 <img src="./figures/fig1.jpg" width="256px" alt="">
 
