@@ -1,6 +1,6 @@
 # meme-text-ocr
 
-This project's goal is to recognize the text in an image of text. 
+The goal of this project is to recognize the text in an image of text. 
 
 This project is also the second stage of another project. <HREF
 
