@@ -2,7 +2,7 @@
 
 The goal of this project is to recognize the text in an image of text. 
 
-This project is also the second stage of another project. <HREF
+This project is also the second stage of [another project.](https://github.com/evmarts/meme-recycler)
 
 ## Motivation
 
@@ -38,17 +38,17 @@ Run the script:
 
 Suppose we have the following meme:
 
-<img src="./figures/sample_meme.jpg" width="128px" alt="">
+<img src="./figures/sample_meme.jpg" width="200px" alt="">
 
 Assume we have [some way](https://github.com/evmarts/meme-cropper) of partition the meme into two components,
 
 an image component,
 
-<img src="./figures/sample_meme_image.jpg" width="128px" alt=""> 
+<img src="./figures/sample_meme_image.jpg" width="200px" alt=""> 
 
 and the text component, say *text.jpg*,
 
-<img src="./figures/fig2.jpg" width="128px" alt=""> 
+<img src="./figures/fig2.jpg" width="200px" alt=""> 
 
 After placing the image of the text in the ```in/``` directory, we can run the script:
 
