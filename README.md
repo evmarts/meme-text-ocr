@@ -48,7 +48,7 @@ an image component,
 
 and the text component, say *text.jpg*,
 
-<img src="./figures/fig2.jpg" width="200px" alt=""> 
+<img src="./figures/fig2.jpg" width="256px" alt=""> 
 
 After placing the image of the text in the ```in/``` directory, we can run the script:
 
