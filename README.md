@@ -1,6 +1,6 @@
 # meme-text-ocr
 
-The goal of this project is to recognize a string of text in an image of text. 
+The goal of this project is to recognize a string of text in an image of text.
 
 ## Motivation
 
